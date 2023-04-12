@@ -134,9 +134,9 @@ params:
           url: https://github.com/aviralgoel
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/goelaviral/
-      #customIcons:
-       # - icon: /fav.png
-        #  url: "https://example.com"
+      customIcons:
+        - icon: images/vulkan.png
+          url: "https://github.com/aviralgoel/VulkanTriangle"
 
   # About
   about:
@@ -254,6 +254,27 @@ params:
         links:
           - icon: fab fa-youtube
             url: https://www.youtube.com/watch?v=7r8WUmQkc0s
+      - title: Rendering in Vulkan
+        content: Stepping stone C++ project for GPU based rendering using the Vulkan API. Renders a triangle using the Vulkan API, and uses GLSL to write shaders.
+        image: /images/projects/triangle-vulkan.png
+        badges:
+          - "C++"
+          - "Vulkan"
+          - "GLSL"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/aviralgoel/VulkanTriangle
+
+      - title: Ad Block Tester
+        content: A simple website that helps you in identifying what formats of advertisements are blocked or unblocked so that you can understand your ad-blockers effectiveness. Use the various tests to test ad-blockers such as AdBlock, AdBlock Plus, uBlock Origin, etc.
+        image: /images/projects/cybi.png
+        badges:
+          - "Web Dev"
+          - "REST"
+          - "JavaScript"
+        links:
+          - icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=7r8WUmQkc0s
 
   #Contact
   contact:
@@ -278,6 +299,8 @@ params:
     socialNetworks:
       github: https://github.com/aviralgoel
       linkedin: https://www.linkedin.com/in/goelaviral/
+    showLogoInFooter: true # true
+
 
 
   # List pages like blogs and posts
